@@ -1,0 +1,49 @@
+package POO_FAZENDA;
+
+public class ANIMAIS {
+	
+	String animal;
+	int idade;
+	int tamanho;
+	String som;
+	boolean voa;
+	String tipo;
+	String descricao;
+	
+
+	
+	
+	
+	public void qualAIdade() {
+		System.out.println("O animal possui " + idade + " anos");
+	}
+	
+	
+	public void qualTamanho() {
+		System.out.println("O animal possui " + tamanho + "cm");
+	}
+	
+	
+	public void emitirsom() {
+		System.out.println("O som emitido é o " + som);
+	}
+	
+	
+	
+	public void podeVoar() {
+		System.out.println("O animal voa?" + voa);
+	}
+
+	
+	public void tipoClassificacao() {
+		System.out.println("O animal pertence à classe dos(as) " + tipo);
+	}
+	
+	public void descricaoAnimal() {
+		System.out.println(descricao);
+	}
+	
+	
+
+	}
+
